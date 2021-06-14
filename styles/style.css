@@ -1,0 +1,45 @@
+.relative {
+    max-width: 1024px;
+    width: 100%;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto;
+    position: relative;
+}
+.image-wrapper img {
+    width:  100%;
+}
+.title-absolute {
+    position: absolute;
+    background-color: aquamarine;
+    top: 50px;
+    left: 50%;
+    font-size: 40px;
+    transform: translateX(-50%);
+}
+.right-block {
+    background-color: brown;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.background {
+    background-image: url('./images/coding.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background-title {
+    background-color: brown;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
